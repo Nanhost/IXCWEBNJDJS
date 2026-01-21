@@ -1,0 +1,76 @@
+/* Theme Styles */
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Dark Mode Styles */
+body.dark-mode .header {
+    border-bottom-color: #333;
+}
+
+body.dark-mode .school-info h1 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .school-info p {
+    color: #aaa;
+}
+
+body.dark-mode .hero {
+    background: linear-gradient(135deg, rgba(106, 17, 203, 0.1) 0%, rgba(37, 117, 252, 0.1) 100%);
+}
+
+body.dark-mode .hero-content h2 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .hero-content p {
+    color: #aaa;
+}
+
+body.dark-mode .section-title {
+    color: #e0e0e0;
+}
+
+body.dark-mode .member-card,
+body.dark-mode .activity-card,
+body.dark-mode .info-card {
+    background: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .member-info h3,
+body.dark-mode .activity-content h3,
+body.dark-mode .info-card h3 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .member-info p,
+body.dark-mode .activity-content p,
+body.dark-mode .info-card p {
+    color: #aaa;
+}
+
+body.dark-mode .theme-toggle {
+    background: #333;
+    color: #e0e0e0;
+}
+
+body.dark-mode .floating-element {
+    background: #1e1e1e;
+}
+
+body.dark-mode .modal-content {
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark-mode .close-modal {
+    color: #aaa;
+}
